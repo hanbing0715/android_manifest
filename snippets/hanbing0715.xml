@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="hanbing0715-github-crdroid" fetch="https://github.com/" sync-c="true" sync-j="4" revision="refs/heads/14.0" />
+  <remote name="hanbing0715-github-aosp" fetch="https://github.com/" sync-c="true" sync-j="4" revision="refs/heads/android14-qpr3-release" />
+
+  <project path="packages/modules/NetworkStack" name="hanbing0715/android_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="hanbing0715-github-aosp" />
+  <project path="packages/modules/CaptivePortalLogin" name="hanbing0715/android_modules_CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" remote="hanbing0715-github-aosp" />
+  <project path="packages/modules/Connectivity" name="hanbing0715/android_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="hanbing0715-github-crdroid" />
+  <project path="external/conscrypt" name="hanbing0715/android_external_conscrypt" groups="pdk" remote="hanbing0715-github-aosp" />
+</manifest>
